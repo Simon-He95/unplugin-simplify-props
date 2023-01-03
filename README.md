@@ -1,6 +1,25 @@
 # vite-plugin-simplify-props
 It will make your writing easier
 
+## Install
+
+```
+  npm i vite-plugin-simplify-props
+```
+
+## Usage
+
+```
+  import SimplifyPlugin from 'vite-plugin-simplify-props'
+  import { defineConfig } from 'vite'
+
+  export default defineConfig({
+    plugins: [
+      SimplifyProps(),
+    ]
+  })
+```
+
 ```vue
     <Footer {name}/>
 ```

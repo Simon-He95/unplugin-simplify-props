@@ -24,10 +24,16 @@ It will make your writing easier
     <Footer {name}/>
 ```
 
-Transpiles the same as
+Transpiles the same as in Vue
 
 ```vue
     <Footer :name="name" />
+```
+
+Transpiles the same as in React
+
+```vue
+    <Footer name={name} />
 ```
 
 ## License

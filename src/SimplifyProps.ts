@@ -7,8 +7,9 @@ export function SimplifyProps() {
         // vue
         return code.replace(nameProps, (r: string, k: string, v: string) => r.replace(k, `:${v}="${v}"`))
       }
-      if (id.endsWith('.jsx') || id.endsWith('.tsx')) {
-        // react
+
+      if (id.endsWith('.jsx') || id.endsWith('.tsx') || id.endsWith('.svelte')) {
+        // react svelte solid
         return code.replace(nameProps, (r: string, k: string, v: string) => r.replace(k, `${v}={${v}}`))
       }
     }

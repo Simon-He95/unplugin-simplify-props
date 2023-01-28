@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-simplify-props",
-  "packageManager": "pnpm@7.25.0",
+  "packageManager": "pnpm@7.26.1",
   "version": "0.0.3",
   "description": "vite-plugin-simplify-props",
   "author": "Simon He",

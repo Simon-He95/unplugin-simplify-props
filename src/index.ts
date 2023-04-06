@@ -1,2 +1,2 @@
-import { SimplifyProps } from './SimplifyProps'
-export default SimplifyProps
+export * from './unplugin'
+export * from './types'

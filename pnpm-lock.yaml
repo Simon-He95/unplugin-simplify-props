@@ -48,7 +48,7 @@ importers:
       '@antfu/eslint-config': ^0.34.0
       '@iconify-json/carbon': ^1.1.2
       '@types/node': ^18.0.0
-      '@unocss/reset': ^0.48.0
+      '@unocss/reset': ^0.55.0
       '@vitejs/plugin-vue': ^4.0.0
       '@vue/test-utils': ^2.0.0-rc.18
       '@vueuse/core': ^9.0.0
@@ -72,7 +72,7 @@ importers:
       '@antfu/eslint-config': 0.34.0_xztl6dhthcahlo6akmb2bmjmle
       '@iconify-json/carbon': 1.1.6
       '@types/node': 18.11.16
-      '@unocss/reset': 0.48.0
+      '@unocss/reset': 0.55.0
       '@vitejs/plugin-vue': 4.0.0_vite@4.0.1+vue@3.2.36
       '@vue/test-utils': 2.0.2_vue@3.2.36
       eslint: 8.16.0
@@ -1386,6 +1386,10 @@ packages:
 
   /@unocss/reset/0.48.0:
     resolution: {integrity: sha512-i7z6Rbs7fXFD3NdlVJViFltpDJUCo5xDm5y01Xaoa4mJQHr/1335Ht0JW/emAJXf170UYSwb2rUeK1J3fty9eg==}
+    dev: true
+
+  /@unocss/reset/0.55.0:
+    resolution: {integrity: sha512-TzpcOCIr16IbFxQ4vrSfEV+A8k0N4mJkhl7J3SZfAxBpNDBKAWDB6VBW9iEQY5aBYDLN3wRx1LskgEoubqBCPQ==}
     dev: true
 
   /@unocss/scope/0.48.0:

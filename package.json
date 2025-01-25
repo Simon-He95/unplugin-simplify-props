@@ -1,7 +1,7 @@
 {
   "name": "unplugin-simplify-props",
   "version": "0.0.4",
-  "packageManager": "pnpm@7.26.1",
+  "packageManager": "pnpm@7.33.7",
   "description": "unplugin-simplify-props",
   "author": "Simon He",
   "license": "MIT",
